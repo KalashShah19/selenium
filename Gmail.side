@@ -1,0 +1,149 @@
+{
+  "id": "a88d1c27-6fe2-4bb9-aef2-4c1685db5383",
+  "version": "2.0",
+  "name": "Gmail",
+  "url": "https://accounts.google.com/signup/v2/createaccount?biz=false&cc=IN&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S403021589%3A1689826342607539&emr=1&flowEntry=SignUp&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AeDOFXhXUwA140MEld8Bul_RnRxEz8oopX5bgFtK_Y5Pgina_ce5ylLAkG1NC_iKQ-Bq2I0MuUg76Q&osid=1&service=mail",
+  "tests": [{
+    "id": "ba575279-c44b-42ec-8c45-4e63d9562bbe",
+    "name": "Test",
+    "commands": [{
+      "id": "0551a136-f1a6-43f1-9301-e94e2d8f2096",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.google.com/signup/v2/createaccount?biz=false&cc=IN&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S403021589%3A1689826342607539&emr=1&flowEntry=SignUp&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AeDOFXjpeic_49zj8cujvP0hj6-XdpIfCinm0Ey8x42xDd95qED1YSlKwvTXvuQ7uFsQcuVabjAI&osid=1&service=mail",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60248aa2-3e3a-4308-8da9-c0ece6fcf835",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "651x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9817100-df95-4cfb-9c3f-453028693cfb",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "132effd7-d806-43c1-9eac-7d91ae5c1ce4",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "456"
+    }, {
+      "id": "7257cad4-49e9-4458-b06e-a6f3a5fb48d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='collectNameNext']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8513ed7-4d41-4311-a5a4-0d00fa901c2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=day", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//input[@id='day']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d68a8e-a5e3-4fd1-9314-11ae66009bd1",
+      "comment": "",
+      "command": "type",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=day", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//input[@id='day']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "26"
+    }, {
+      "id": "d8a98bcf-62ee-48dd-989c-5eeb0463a4fd",
+      "comment": "",
+      "command": "select",
+      "target": "id=month",
+      "targets": [],
+      "value": "May"
+    }, {
+      "id": "07709c65-047f-43e2-a6a4-799bf6b44ea5",
+      "comment": "",
+      "command": "type",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=year", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//input[@id='year']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "2025"
+    }, {
+      "id": "c8727032-b500-4735-9e91-5ccc851ccd16",
+      "comment": "",
+      "command": "select",
+      "target": "id=gender",
+      "targets": [
+        ["id=gender", "id"],
+        ["css=#gender", "css:finder"],
+        ["xpath=//select[@id='gender']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div[2]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": "Male"
+    }, {
+      "id": "458bb7b8-6669-45f6-b91b-1c991622217d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='birthdaygenderNext']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "29e7f3e9-3c7c-4791-bc8a-942a0ee16ed7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ba575279-c44b-42ec-8c45-4e63d9562bbe"]
+  }],
+  "urls": ["https://accounts.google.com/signup/v2/createaccount?biz=false&cc=IN&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S403021589%3A1689826342607539&emr=1&flowEntry=SignUp&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AeDOFXhXUwA140MEld8Bul_RnRxEz8oopX5bgFtK_Y5Pgina_ce5ylLAkG1NC_iKQ-Bq2I0MuUg76Q&osid=1&service=mail"],
+  "plugins": []
+}
