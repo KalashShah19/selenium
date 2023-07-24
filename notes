@@ -8,3 +8,8 @@ rec button - records actions performed and auto makes script
 
 store value - create variable and store value in it of any text box or value 
 type (value = ${var}) - prints the value of variable in the target
+echo - print var in console
+
+store text - store value of text from page in var (errors)
+store text - store title of page
+
