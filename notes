@@ -1,3 +1,10 @@
-assert command stops execution if error
-where as verfiy contiues execution
+assert - stops execution if error
+verify - contiues execution even if error
 
+assert element present - to check if the control is in the page or not (stops execution if error )
+verify element present - to check if the control is in the page or not (continues even if error)
+
+rec button - records actions performed and auto makes script
+
+store value - create variable and store value in it of any text box or value 
+type (value = ${var}) - prints the value of variable in the target
