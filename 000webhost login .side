@@ -1,0 +1,145 @@
+{
+  "id": "49ab8416-298f-4a99-aa4f-2cf7cb922161",
+  "version": "2.0",
+  "name": "000webhost login ",
+  "url": "https://in.000webhost.com/cpanel-login",
+  "tests": [{
+    "id": "c2df3f03-2594-4ef7-b138-935c1dc8d437",
+    "name": "kalash.ai",
+    "commands": [{
+      "id": "0afa3be6-465b-49fe-9b6e-18f6907f4f0b",
+      "comment": "",
+      "command": "open",
+      "target": "https://in.000webhost.com/cpanel-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83ad5f96-3fa7-4eca-b6eb-5a6548e6a370",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='challenge-stage']/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5b6cb04-f5b9-4d42-bd73-75cdc5f7c875",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpanel-login-email",
+      "targets": [
+        ["id=cpanel-login-email", "id"],
+        ["name=email", "name"],
+        ["css=#cpanel-login-email", "css:finder"],
+        ["xpath=//input[@id='cpanel-login-email']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div[3]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kalashgamer19@gmail.com"
+    }, {
+      "id": "a714be90-f316-4016-8a0a-7c74650df5a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpanel-login-password",
+      "targets": [
+        ["id=cpanel-login-password", "id"],
+        ["name=password", "name"],
+        ["css=#cpanel-login-password", "css:finder"],
+        ["xpath=//input[@id='cpanel-login-password']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div[3]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "KalashGamer19"
+    }, {
+      "id": "c813be02-6514-4ccb-b99a-c7b8654dfc88",
+      "comment": "",
+      "command": "click",
+      "target": "id=000-button_user-login_sign-in-form_log-in",
+      "targets": [
+        ["id=000-button_user-login_sign-in-form_log-in", "id"],
+        ["css=#\\30 00-button_user-login_sign-in-form_log-in", "css:finder"],
+        ["xpath=//button[@id='000-button_user-login_sign-in-form_log-in']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div[3]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "33a2a931-2095-4ffa-a514-d6db8d78f5c1",
+    "name": "SAP",
+    "commands": [{
+      "id": "d8f62d6e-edce-4401-91c9-9c49f0cf3f4a",
+      "comment": "",
+      "command": "open",
+      "target": "https://in.000webhost.com/cpanel-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b79c959e-32f5-4c16-a197-f28e04002b3d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='challenge-stage']/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d32a231-eceb-42ad-add6-5503217206ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpanel-login-email",
+      "targets": [
+        ["id=cpanel-login-email", "id"],
+        ["name=email", "name"],
+        ["css=#cpanel-login-email", "css:finder"],
+        ["xpath=//input[@id='cpanel-login-email']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div[3]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "snapdragon7gamer@gmail.com"
+    }, {
+      "id": "79d4cd0a-7a6d-4a2c-97ea-d0ddb22820b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpanel-login-password",
+      "targets": [
+        ["id=cpanel-login-password", "id"],
+        ["name=password", "name"],
+        ["css=#cpanel-login-password", "css:finder"],
+        ["xpath=//input[@id='cpanel-login-password']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div[3]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "snapdragon7"
+    }, {
+      "id": "24d37b0c-84c7-42f3-a9a1-c29ab8bb02e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=000-button_user-login_sign-in-form_log-in",
+      "targets": [
+        ["id=000-button_user-login_sign-in-form_log-in", "id"],
+        ["css=#\\30 00-button_user-login_sign-in-form_log-in", "css:finder"],
+        ["xpath=//button[@id='000-button_user-login_sign-in-form_log-in']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div[3]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a6630d9d-b7c0-4ea3-8c6b-b9ac73318435",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2df3f03-2594-4ef7-b138-935c1dc8d437"]
+  }],
+  "urls": ["https://in.000webhost.com/cpanel-login"],
+  "plugins": []
+}
