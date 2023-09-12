@@ -1,0 +1,7 @@
+rename
+right click on test suit and add thread group
+	rename
+	set 3 properties
+	right click -> add sampler -> HTTP request
+		type link in server name
+		right click -> add listener -> any  
